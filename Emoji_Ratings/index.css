@@ -1,0 +1,43 @@
+html, body {
+    margin:20px;
+    padding: 0;
+    background-color: rgb(26, 25, 25);
+}
+#para{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:whitesmoke;
+}
+ 
+#text{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#box {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background: #96f3d4;
+    font-size: 30px;
+}
+
+#emoji-container {
+    font-size: 100px;
+}
+
+#box:focus {
+    background: #e0f3ac;
+}
+
+#help-text {
+    display: none;
+    text-align: center;
+}
+
+#box:focus #help-text {
+    display: block;
+}
